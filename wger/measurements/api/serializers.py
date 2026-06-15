@@ -50,11 +50,18 @@ class MeasurementSerializer(serializers.ModelSerializer):
         coerce_to_string=False,
     )
 
+    category_name = serializers.SerializerMethodField()
+
+    def get_category_name(self, obj):
+        """Return the human-readable name of the measurement category."""
+        return obj.category.name
+
     class Meta:
         model = Measurement
         fields = (
             'id',
             'category',
+            'category_name',
             'date',
             'value',
             'notes',
