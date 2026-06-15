@@ -1,0 +1,80 @@
+[
+  {
+    "Source": "192.168.65.1:39998",
+    "Destination": "localhost",
+    "RequestBody": "{\"description\": \"Plan-1750000000\", \"only_logging\": false}",
+    "ResponseBody": "{\"id\": 1, \"description\": \"Plan-1750000000\", \"only_logging\": false}",
+    "RequestHeaders": {
+      "Content-Type": [
+        "application/json"
+      ],
+      "Authorization": [
+        "Token SKYRAMP_PLACEHOLDER_TOKEN"
+      ]
+    },
+    "ResponseHeaders": {
+      "Content-Type": [
+        "application/json"
+      ]
+    },
+    "Method": "POST",
+    "Path": "/api/v2/nutritionplan/",
+    "QueryParams": {},
+    "StatusCode": 201,
+    "Port": 8091,
+    "Timestamp": "2026-06-15T10:58:56.533Z",
+    "Scheme": "http"
+  },
+  {
+    "Source": "192.168.65.1:39998",
+    "Destination": "localhost",
+    "RequestBody": "{\"plan\": 1, \"name\": \"Breakfast-1750000000\"}",
+    "ResponseBody": "{\"id\": 1, \"plan\": 1, \"name\": \"Breakfast-1750000000\"}",
+    "RequestHeaders": {
+      "Content-Type": [
+        "application/json"
+      ],
+      "Authorization": [
+        "Token SKYRAMP_PLACEHOLDER_TOKEN"
+      ]
+    },
+    "ResponseHeaders": {
+      "Content-Type": [
+        "application/json"
+      ]
+    },
+    "Method": "POST",
+    "Path": "/api/v2/meal/",
+    "QueryParams": {},
+    "StatusCode": 201,
+    "Port": 8091,
+    "Timestamp": "2026-06-15T10:58:56.533Z",
+    "Scheme": "http"
+  },
+  {
+    "Source": "192.168.65.1:39998",
+    "Destination": "localhost",
+    "RequestBody": "",
+    "ResponseBody": "{\"id\": 1, \"plan\": 1, \"name\": \"Breakfast-1750000000\"}",
+    "RequestHeaders": {
+      "Content-Type": [
+        "application/json"
+      ],
+      "Authorization": [
+        "Token SKYRAMP_PLACEHOLDER_TOKEN"
+      ]
+    },
+    "ResponseHeaders": {
+      "Content-Type": [
+        "application/json"
+      ]
+    },
+    "Method": "GET",
+    "Path": "/api/v2/meal/1/",
+    "QueryParams": {},
+    "StatusCode": 200,
+    "Port": 8091,
+    "Timestamp": "2026-06-15T10:58:56.533Z",
+    "Scheme": "http"
+  }
+]

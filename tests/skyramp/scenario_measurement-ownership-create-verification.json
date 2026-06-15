@@ -1,0 +1,80 @@
+[
+  {
+    "Source": "192.168.65.1:39998",
+    "Destination": "localhost",
+    "RequestBody": "{\"name\": \"Weight-1750000000\", \"unit\": \"kg\"}",
+    "ResponseBody": "{\"id\": 1, \"name\": \"Weight-1750000000\", \"unit\": \"kg\"}",
+    "RequestHeaders": {
+      "Content-Type": [
+        "application/json"
+      ],
+      "Authorization": [
+        "Token SKYRAMP_PLACEHOLDER_TOKEN"
+      ]
+    },
+    "ResponseHeaders": {
+      "Content-Type": [
+        "application/json"
+      ]
+    },
+    "Method": "POST",
+    "Path": "/api/v2/measurement-category/",
+    "QueryParams": {},
+    "StatusCode": 201,
+    "Port": 8091,
+    "Timestamp": "2026-06-15T10:58:52.242Z",
+    "Scheme": "http"
+  },
+  {
+    "Source": "192.168.65.1:39998",
+    "Destination": "localhost",
+    "RequestBody": "{\"category\": 1, \"date\": \"2026-06-15\", \"value\": 75.5}",
+    "ResponseBody": "{\"id\": 1, \"category\": 1, \"date\": \"2026-06-15\", \"value\": 75.5}",
+    "RequestHeaders": {
+      "Content-Type": [
+        "application/json"
+      ],
+      "Authorization": [
+        "Token SKYRAMP_PLACEHOLDER_TOKEN"
+      ]
+    },
+    "ResponseHeaders": {
+      "Content-Type": [
+        "application/json"
+      ]
+    },
+    "Method": "POST",
+    "Path": "/api/v2/measurement/",
+    "QueryParams": {},
+    "StatusCode": 201,
+    "Port": 8091,
+    "Timestamp": "2026-06-15T10:58:52.242Z",
+    "Scheme": "http"
+  },
+  {
+    "Source": "192.168.65.1:39998",
+    "Destination": "localhost",
+    "RequestBody": "",
+    "ResponseBody": "{\"id\": 1, \"category\": 1, \"date\": \"2026-06-15\", \"value\": 75.5}",
+    "RequestHeaders": {
+      "Content-Type": [
+        "application/json"
+      ],
+      "Authorization": [
+        "Token SKYRAMP_PLACEHOLDER_TOKEN"
+      ]
+    },
+    "ResponseHeaders": {
+      "Content-Type": [
+        "application/json"
+      ]
+    },
+    "Method": "GET",
+    "Path": "/api/v2/measurement/1/",
+    "QueryParams": {},
+    "StatusCode": 200,
+    "Port": 8091,
+    "Timestamp": "2026-06-15T10:58:52.242Z",
+    "Scheme": "http"
+  }
+]
