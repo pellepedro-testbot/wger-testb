@@ -1,0 +1,80 @@
+[
+  {
+    "Source": "192.168.65.1:39998",
+    "Destination": "localhost",
+    "RequestBody": "{\"name\": \"WaistLine-1718413200\", \"unit\": \"cm\"}",
+    "ResponseBody": "{\"id\": 1, \"name\": \"WaistLine-1718413200\", \"unit\": \"cm\"}",
+    "RequestHeaders": {
+      "Content-Type": [
+        "application/json"
+      ],
+      "Authorization": [
+        "Token SKYRAMP_PLACEHOLDER_TOKEN"
+      ]
+    },
+    "ResponseHeaders": {
+      "Content-Type": [
+        "application/json"
+      ]
+    },
+    "Method": "POST",
+    "Path": "/api/v2/measurement-category/",
+    "QueryParams": {},
+    "StatusCode": 201,
+    "Port": 8091,
+    "Timestamp": "2026-06-15T10:56:17.909Z",
+    "Scheme": "http"
+  },
+  {
+    "Source": "192.168.65.1:39998",
+    "Destination": "localhost",
+    "RequestBody": "{\"category\": 1, \"date\": \"2024-01-16T10:00:00Z\", \"value\": \"80.00\"}",
+    "ResponseBody": "{\"id\": 1, \"category\": 1, \"category_name\": \"WaistLine-1718413200\", \"date\": \"2024-01-16T10:00:00Z\", \"value\": \"80.00\", \"notes\": \"\"}",
+    "RequestHeaders": {
+      "Content-Type": [
+        "application/json"
+      ],
+      "Authorization": [
+        "Token SKYRAMP_PLACEHOLDER_TOKEN"
+      ]
+    },
+    "ResponseHeaders": {
+      "Content-Type": [
+        "application/json"
+      ]
+    },
+    "Method": "POST",
+    "Path": "/api/v2/measurement/",
+    "QueryParams": {},
+    "StatusCode": 201,
+    "Port": 8091,
+    "Timestamp": "2026-06-15T10:56:17.909Z",
+    "Scheme": "http"
+  },
+  {
+    "Source": "192.168.65.1:39998",
+    "Destination": "localhost",
+    "RequestBody": "",
+    "ResponseBody": "{\"count\": 1, \"next\": null, \"previous\": null, \"results\": [{\"id\": 1, \"category\": 1, \"category_name\": \"WaistLine-1718413200\", \"date\": \"2024-01-16T10:00:00Z\", \"value\": \"80.00\", \"notes\": \"\"}]}",
+    "RequestHeaders": {
+      "Content-Type": [
+        "application/json"
+      ],
+      "Authorization": [
+        "Token SKYRAMP_PLACEHOLDER_TOKEN"
+      ]
+    },
+    "ResponseHeaders": {
+      "Content-Type": [
+        "application/json"
+      ]
+    },
+    "Method": "GET",
+    "Path": "/api/v2/measurement/",
+    "QueryParams": {},
+    "StatusCode": 200,
+    "Port": 8091,
+    "Timestamp": "2026-06-15T10:56:17.909Z",
+    "Scheme": "http"
+  }
+]

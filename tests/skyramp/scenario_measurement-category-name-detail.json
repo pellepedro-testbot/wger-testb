@@ -1,0 +1,80 @@
+[
+  {
+    "Source": "192.168.65.1:39998",
+    "Destination": "localhost",
+    "RequestBody": "{\"name\": \"BicepsSize-1718413200\", \"unit\": \"cm\"}",
+    "ResponseBody": "{\"id\": 1, \"name\": \"BicepsSize-1718413200\", \"unit\": \"cm\"}",
+    "RequestHeaders": {
+      "Content-Type": [
+        "application/json"
+      ],
+      "Authorization": [
+        "Token SKYRAMP_PLACEHOLDER_TOKEN"
+      ]
+    },
+    "ResponseHeaders": {
+      "Content-Type": [
+        "application/json"
+      ]
+    },
+    "Method": "POST",
+    "Path": "/api/v2/measurement-category/",
+    "QueryParams": {},
+    "StatusCode": 201,
+    "Port": 8091,
+    "Timestamp": "2026-06-15T10:56:12.563Z",
+    "Scheme": "http"
+  },
+  {
+    "Source": "192.168.65.1:39998",
+    "Destination": "localhost",
+    "RequestBody": "{\"category\": 1, \"date\": \"2024-01-15T10:00:00Z\", \"value\": \"35.50\", \"notes\": \"test note\"}",
+    "ResponseBody": "{\"id\": 1, \"category\": 1, \"category_name\": \"BicepsSize-1718413200\", \"date\": \"2024-01-15T10:00:00Z\", \"value\": \"35.50\", \"notes\": \"test note\"}",
+    "RequestHeaders": {
+      "Content-Type": [
+        "application/json"
+      ],
+      "Authorization": [
+        "Token SKYRAMP_PLACEHOLDER_TOKEN"
+      ]
+    },
+    "ResponseHeaders": {
+      "Content-Type": [
+        "application/json"
+      ]
+    },
+    "Method": "POST",
+    "Path": "/api/v2/measurement/",
+    "QueryParams": {},
+    "StatusCode": 201,
+    "Port": 8091,
+    "Timestamp": "2026-06-15T10:56:12.563Z",
+    "Scheme": "http"
+  },
+  {
+    "Source": "192.168.65.1:39998",
+    "Destination": "localhost",
+    "RequestBody": "",
+    "ResponseBody": "{\"id\": 1, \"category\": 1, \"category_name\": \"BicepsSize-1718413200\", \"date\": \"2024-01-15T10:00:00Z\", \"value\": \"35.50\", \"notes\": \"test note\"}",
+    "RequestHeaders": {
+      "Content-Type": [
+        "application/json"
+      ],
+      "Authorization": [
+        "Token SKYRAMP_PLACEHOLDER_TOKEN"
+      ]
+    },
+    "ResponseHeaders": {
+      "Content-Type": [
+        "application/json"
+      ]
+    },
+    "Method": "GET",
+    "Path": "/api/v2/measurement/1/",
+    "QueryParams": {},
+    "StatusCode": 200,
+    "Port": 8091,
+    "Timestamp": "2026-06-15T10:56:12.563Z",
+    "Scheme": "http"
+  }
+]
