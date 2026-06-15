@@ -1,0 +1,21 @@
+# Skyramp Workspace Configuration
+workspace:
+  repoName: pellepedro-testbot/wger-testb
+  repoUrl: https://github.com/pellepedro-testbot/wger-testb
+metadata:
+  schemaVersion: v1
+services:
+  - serviceName: wger-testb-server
+    language: python
+    framework: pytest
+    testDirectory: tests/skyramp
+    api:
+      schemaPath: http://localhost:8091/api/v2/schema?format=json
+      authType: token
+      authHeader: Authorization
+      authScheme: Token
+      baseUrl: http://localhost:8091
+    runtimeDetails:
+      serverStartCommand: docker compose -f deployment-testbot/docker-compose.yml up -d --build
+      runtime: docker
+      dockerNetwork: deployment-testbot_default
