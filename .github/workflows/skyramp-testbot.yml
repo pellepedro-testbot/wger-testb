@@ -22,7 +22,7 @@ jobs:
     steps:
       # testbot v0.10.x inputs are camelCase. SUT = wger built from source on :8091
       # (Django REST, token auth: Authorization: Token <token>; OpenAPI at /api/v2/schema/).
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           fetch-depth: 0
       - uses: skyramp/testbot@v0.10.4
