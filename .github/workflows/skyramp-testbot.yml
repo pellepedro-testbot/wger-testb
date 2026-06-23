@@ -25,7 +25,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - uses: skyramp/testbot@v0.10.4
+      - uses: skyramp/testbot@v0.10.5
         with:
           skyrampLicenseFile: ${{ secrets.SKYRAMP_LICENSE_FILE }}
           anthropicApiKey: ${{ secrets.ANTHROPIC_API_KEY }}
